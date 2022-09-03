@@ -1,0 +1,41 @@
+/* .class{
+    background-color: rgb(0, 26, 255);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+@media screen and(max-width:600px){
+    .class{
+        width: 75%;
+        float: none;
+        
+        
+    }
+}
+ */
+
+ body{
+    
+    box-sizing: border-box;
+    viewport-fit: 70vh;
+ }
+
+
+.text-center{
+    text-align:center;
+}
+
+.collapse navbar-collapse{
+    text-align:center;
+   
+}
+
+.nav-link {
+color: #fff;
+}
+
+.nav-link:hover{
+    background-color: antiquewhite;
+}
