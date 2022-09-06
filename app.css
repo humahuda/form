@@ -8,18 +8,19 @@
 }
 @media screen and(max-width:600px){
     .class{
-        width: 75%;
+        width: 100%;
         float: none;
         
         
     }
-}
- */
+}*/
+ 
 
  body{
     
     box-sizing: border-box;
-    viewport-fit: 70vh;
+    color: black;
+    
  }
 
 
@@ -39,3 +40,82 @@ color: #fff;
 .nav-link:hover{
     background-color: antiquewhite;
 }
+
+  .img-fluid{
+    height: 15%;
+    width:15%;
+  }
+
+  .moving-links {
+    color: red;
+    animation: mymove 1s infinite;
+  }
+
+
+  @keyframes mymove {
+    from {color: red;}
+    to {color: white;}
+  }
+  
+  .moving-links1 {
+    color: blue;
+    animation: mymove1 1s infinite;
+  }
+
+
+  @keyframes mymove1 {
+    from {color:blue;}
+    to {color: white;}
+  }
+
+  .blink-link ul li{
+    margin-left:8rem;
+  }
+
+ 
+  .blink1 {
+    color: rgb(126, 31, 90);
+    animation: move 1s infinite;
+  }
+
+
+  @keyframes move {
+    from {color:rgb(126, 31, 90);}
+    to {color: white;}
+
+  }
+  .blink ul li{
+    margin-left:8rem;
+  }
+  .blink2 {
+    color: goldenrod;
+    animation: move1 1s infinite;
+  }
+
+
+  @keyframes move1 {
+    from {color:goldenrod;}
+    to {color: white;}
+  }
+
+/*
+  .flex-column{
+    position:fixed;
+    margin-left: 300px;
+    column-width:5%;
+    
+  }*/
+
+  #container{
+    padding: 20px;
+  }
+ .justify{
+  text-align:justify;
+  text-justify: inter-word;
+ }
+
+
+ .size{
+  color:darkkhaki;
+  font-size:15px;
+ }
