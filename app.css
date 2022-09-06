@@ -20,10 +20,19 @@
     
     box-sizing: border-box;
     color: black;
+
     
  }
 
+a {
+      color: white;
+    }
 
+a:hover {
+  color:black;
+  background-color: bisque;
+}
+    
 .text-center{
     text-align:center;
 }
@@ -70,6 +79,7 @@ color: #fff;
 
   .blink-link ul li{
     margin-left:8rem;
+    font-size:15px;
   }
 
  
@@ -86,6 +96,7 @@ color: #fff;
   }
   .blink ul li{
     margin-left:8rem;
+    font-size:15px;
   }
   .blink2 {
     color: goldenrod;
@@ -98,16 +109,9 @@ color: #fff;
     to {color: white;}
   }
 
-/*
-  .flex-column{
-    position:fixed;
-    margin-left: 300px;
-    column-width:5%;
-    
-  }*/
-
   #container{
     padding: 20px;
+    
   }
  .justify{
   text-align:justify;
@@ -119,3 +123,17 @@ color: #fff;
   color:darkkhaki;
   font-size:15px;
  }
+ .footer{
+  background-color:#0A5487;
+ }
+
+
+ .para{
+  font-size:15px;
+ }
+
+ .icon-style{
+  color: rgb(255, 108, 108);
+  
+ }
+
