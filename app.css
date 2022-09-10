@@ -16,30 +16,28 @@
 }*/
  
 
- body{
+body{
     
-    box-sizing: border-box;
-    color: black;
+  box-sizing: border-box;
+  color: black;
 
-    
- }
+  
+}
 
-a {
-      color: white;
-    }
+
 
 a:hover {
-  color:black;
-  background-color: bisque;
+color:black;
+background-color: #d9edf7;
 }
-    
+  
 .text-center{
-    text-align:center;
+  text-align:center;
 }
 
 .collapse navbar-collapse{
-    text-align:center;
-   
+  text-align:center;
+ 
 }
 
 .nav-link {
@@ -47,97 +45,123 @@ color: #fff;
 }
 
 .nav-link:hover{
-    background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 
-  .img-fluid{
-    height: 15%;
-    width:15%;
-  }
+.img-fluid{
+  height: 15%;
+  width:15%;
+}
 
-  .moving-links {
-    color: red;
-    animation: mymove 1s infinite;
-  }
-
-
-  @keyframes mymove {
-    from {color: red;}
-    to {color: white;}
-  }
-  
-  .moving-links1 {
-    color: blue;
-    animation: mymove1 1s infinite;
-  }
+.moving-links {
+  color: red;
+  animation: mymove 1s infinite;
+}
 
 
-  @keyframes mymove1 {
-    from {color:blue;}
-    to {color: white;}
-  }
+@keyframes mymove {
+  from {color: red;}
+  to {color: white;}
+}
 
-  .blink-link ul li{
-    margin-left:8rem;
-    font-size:15px;
-  }
-
- 
-  .blink1 {
-    color: rgb(126, 31, 90);
-    animation: move 1s infinite;
-  }
+.moving-links1 {
+  color: blue;
+  animation: mymove1 1s infinite;
+}
 
 
-  @keyframes move {
-    from {color:rgb(126, 31, 90);}
-    to {color: white;}
+@keyframes mymove1 {
+  from {color:blue;}
+  to {color: white;}
+}
 
-  }
-  .blink ul li{
-    margin-left:8rem;
-    font-size:15px;
-  }
-  .blink2 {
-    color: goldenrod;
-    animation: move1 1s infinite;
-  }
-
-
-  @keyframes move1 {
-    from {color:goldenrod;}
-    to {color: white;}
-  }
-
-  #container{
-    padding: 20px;
-    
-  }
- .justify{
-  text-align:justify;
-  text-justify: inter-word;
- }
-
-
- .size{
-  color:darkkhaki;
+.blink-link ul li{
+  margin-left:8rem;
   font-size:15px;
- }
- .footer{
-  background-color:#0A5487;
- }
+}
 
 
+.blink1 {
+  color: rgb(126, 31, 90);
+  animation: move 1s infinite;
+}
 
- .icon-style{
-  color: rgb(255, 108, 108);
+
+@keyframes move {
+  from {color:rgb(126, 31, 90);}
+  to {color: white;}
+
+}
+.blink ul li{
+  margin-left:8rem;
+  font-size:15px;
+}
+.blink2 {
+  color: goldenrod;
+  animation: move1 1s infinite;
+}
+
+
+@keyframes move1 {
+  from {color:goldenrod;}
+  to {color: white;}
+}
+
+#container{
+  padding: 30px;
   
 }
-
-.container{
-  padding: 20px;
+.justify{
+text-align:justify;
+text-justify: inter-word;
 }
+
+
+.size{
+color:darkkhaki;
+font-size:15px;
+}
+.footer{
+background-color:#0A5487;
+}
+
+
+
+.icon-style{
+color: rgb(255, 108, 108);
+
+}
+
 
 .head-color{
 background-color:#d9edf7; 
+}
+.line-color{
+background-color:aquamarine;
+max-width: fit-content;
+
+}
+.Line-Color{
+color: #0A5487;
+width: 5px;
+}
+.rounded float-right{
+float: right;
+}
+.table-size{
+  margin-left: 50px;
+
+}
+
+.web{
+  
+ 
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 250px;
+
+}
+.padding{
+  margin-left: 200px;
+  margin-right: 250px;
 }
