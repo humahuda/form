@@ -137,7 +137,7 @@ color: rgb(255, 108, 108);
 background-color:#d9edf7; 
 }
 .line-color{
-background-color:aquamarine;
+background-color:bisque;
 max-width: fit-content;
 
 }
@@ -154,8 +154,6 @@ float: right;
 }
 
 .web{
-  
- 
   margin-bottom: 50px;
   margin-left: 200px;
   margin-right: 250px;
@@ -164,4 +162,27 @@ float: right;
 .padding{
   margin-left: 200px;
   margin-right: 250px;
+}
+
+.Feed{
+  background-color: bisque;
+  font-size: 30px;
+  color: black;
+}
+
+.std{
+  background-color: bisque;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 250px;
+}
+
+.abt{
+ 
+  margin-right: 100px;
+}
+.chairman{
+  width: 50%;
+  height: auto;
+  margin-right: 15px;
 }
