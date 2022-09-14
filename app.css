@@ -118,7 +118,7 @@ text-justify: inter-word;
 
 
 .size{
-color:darkkhaki;
+color:black;
 font-size:15px;
 }
 .footer{
@@ -131,7 +131,6 @@ background-color:#0A5487;
 color: rgb(255, 108, 108);
 
 }
-
 
 .head-color{
 background-color:#d9edf7; 
@@ -202,4 +201,10 @@ float: right;
 .image-size{
  width:300px;
  height: 300px;
+}
+.table-gap{
+  margin-left: 15px;
+  margin-right:4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
