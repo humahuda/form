@@ -31,26 +31,21 @@ color:black;
 background-color: #d9edf7;
 }
   
-.text-center{
-  text-align:center;
-}
-
-.collapse navbar-collapse{
-  text-align:center;
- 
-}
+/*.text-center{
+  text-align:right;
+}*/
 
 .nav-link {
 color: #fff;
 }
 
-.nav-link:hover{
-  background-color: antiquewhite;
-}
+/*.nav-link:hover{
+  background-color:white;
+}*/
 
 .img-fluid{
-  height: 15%;
-  width:15%;
+  height:10%;
+  width:7%;
 }
 
 .moving-links {
@@ -61,7 +56,7 @@ color: #fff;
 
 @keyframes mymove {
   from {color: red;}
-  to {color: white;}
+  to {color:black;}
 }
 
 .moving-links1 {
@@ -72,7 +67,7 @@ color: #fff;
 
 @keyframes mymove1 {
   from {color:blue;}
-  to {color: white;}
+  to {color: black;}
 }
 
 .blink-link ul li{
@@ -89,7 +84,7 @@ color: #fff;
 
 @keyframes move {
   from {color:rgb(126, 31, 90);}
-  to {color: white;}
+  to {color:black;}
 
 }
 .blink ul li{
@@ -104,7 +99,7 @@ color: #fff;
 
 @keyframes move1 {
   from {color:goldenrod;}
-  to {color: white;}
+  to {color:black;}
 }
 
 #container{
@@ -203,8 +198,12 @@ float: right;
  height: 300px;
 }
 .table-gap{
-  margin-left: 15px;
-  margin-right:4px;
+  margin-left: 30px;
+  
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.marquee{
+  size: 50px;
 }
