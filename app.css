@@ -54,8 +54,8 @@ color: #fff;
   margin-right: 15px;
 }
 .img-fluid{
-  height:50%;
-  width:50%;
+  height: 10rem;
+  width:100%;
 }
 .image-fluid{
   height:6%;
@@ -229,4 +229,10 @@ float: right;
 .marquee{
   size: 50px;
 }
+.header-modal:hover {
+  color: black;
+  background-color: aquamarine;
+}
+
+
 
