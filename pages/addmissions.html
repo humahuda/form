@@ -15,92 +15,66 @@
 
 <body>
  
-  <section class="vh-100 gradient-custom addm-size">
-    <div class="container py-5 h-100">
-      <div class="row justify-content-center align-items-center h-100">
-        <div class="col-12 col-lg-9 col-xl-7">
-          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
-            <div- class="card-body p-4 p-md-5">
-              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Addmision Form</h3>
-              <form target="_parent" method="post" name="adm form" id="adm form" action="https://script.google.com/macros/s/AKfycbzHkKCEvH5ZsFToARgRrjbX2hmxeJcsLOchdoesQr_5wzFpfucReVbrZmzPBEQcbzs9Cw/exec">
-
+  <section class="d-flex justify-content-center " id="container">
+    <div class="container  ">
+      <div class="row ">
+        <div class="col">
+          <div>
+            <div>
+              <h3>Addmision Form</h3>
+              <form class="col-lg-6 form-popup" method="post" name="adm form" id="adm form" action="https://script.google.com/macros/s/AKfycbzHkKCEvH5ZsFToARgRrjbX2hmxeJcsLOchdoesQr_5wzFpfucReVbrZmzPBEQcbzs9Cw/exec">
                 <div class="row">
-                  <div class="col-md-6 mb-4">
-
+                  <div class="col-sm-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" id="firstName" name="Fname" class="form-control form-control-lg" />
                       <label class="form-label" for="firstName">First Name</label>
+                      <input type="text" id="firstName" name="Fname" placeholder="First Name" class="form-control form-control-lg" />  
                     </div>
 
                   </div>
-                  <div class="col-md-6 mb-4">
-
+                  <div class="col-sm-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" id="lastName" name="Lname" class="form-control form-control-lg" />
                       <label class="form-label" for="lastName">Last Name</label>
+                      <input type="text" id="lastName" name="Lname"  placeholder="Last Name" class="form-control form-control-lg" /> 
                     </div>
 
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col-md-6 mb-4 d-flex align-items-center">
-
-                    <div class="form-outline datepicker w-100">
-                      <input type="text" name="City" class="form-control form-control-lg" id="birthdayDate" />
-                      <label for="birthdayDate" class="form-label">City</label>
+                  <div class="col-md-6 mb-4 ">
+                    <div class="form-outline ">
+                      <label for="City" class="form-label">City</label>
+                      <input type="text" name="City" placeholder="City" class="form-control form-control-lg" id="city" />
                     </div>
-
                   </div>
-                  <div class="col-md-6 mb-4">
-
-                    <h6 class="mb-2 pb-1">Gender: </h6>
-
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Female" id="femaleGender"
-                        value="option1" checked />
-                      <label class="form-check-label" for="femaleGender">Female</label>
-                    </div>
-
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Male" id="maleGender"
-                        value="option2" />
-                      <label class="form-check-label" for="maleGender">Male</label>
-                    </div>
-
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Other" id="otherGender"
-                        value="option3" />
-                      <label class="form-check-label" for="otherGender">Other</label>
-                    </div>
-
+                  <div class="col-md-6 mb-4">                    
+                    <label class="form-label select-label">Gender</label>
+                    <select name="Gender" class="select form-control-lg">
+                      <option selected>Select Gender</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Other">Other</option>
+                    </select>                   
                   </div>
                 </div>
-
                 <div class="row">
                   <div class="col-md-6 mb-4 pb-2">
-
                     <div class="form-outline">
-                      <input type="email" id="emailAddress" name="Email" class="form-control form-control-lg" />
-                      <label class="form-label" for="emailAddress">Email</label>
+                      <label class="form-label" for="emailAddress">E-mail</label>
+                      <input type="email" id="emailAddress" name="E-mail" placeholder="E-mail" class="form-control form-control-lg" />         
                     </div>
-
                   </div>
                   <div class="col-md-6 mb-4 pb-2">
-
                     <div class="form-outline">
-                      <input type="tel" id="phoneNumber" name="PhoneNo" class="form-control form-control-lg" />
                       <label class="form-label" for="phoneNumber">Phone Number</label>
+                      <input type="tel" id="phoneNumber" name="PhoneNo" placeholder="Phone Number" class="form-control form-control-lg" />                      
                     </div>
-
                   </div>
                 </div>
-
                 <div class="row">
                   <div class="col-12">
                     <label class="form-label select-label">Course Intrested</label>
-                    <select class="select form-control-lg">
-
+                    <select name="Course Intrested" class="select form-control-lg">
                       <option selected>Select Course</option>
                       <option value="2">Mechanical Engineering</option>
                       <option value="3">Computer Science Engineering</option>
@@ -109,19 +83,15 @@
                       <option value="3">Chemical Engineering</option>
                       <option value="4"> M.C.A</option>
                     </select>
-
-
                   </div>
                 </div>
-
                 <div class="mt-4 pt-2">
                   <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
                 </div>
                 <hr>
-
-                <button type="button" class="btn btn-secondary">Skip</button>
+                <button type="button" class="btn btn-secondary"> <a class="nav-link" href="/pages/addmissions.html">Skip</a> </button>
               </form>
-            </div->
+            </div>
           </div>
         </div>
       </div>

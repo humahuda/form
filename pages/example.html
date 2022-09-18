@@ -11,32 +11,57 @@
     <link rel="stylesheet" href="/app.css" />
 </head>
 <body>
-<section id="container" style="background-color:#0A5487 ;">
-  <div class="container ml-2" >
-    <div class="row ">
-      <div class="col-1">
-        <div class="">
-          <a href="index.html" ><img src="/college_website/form/img/bkit_logo.png" class="img-fluid" alt="img" style="float: left;"></a></div>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Admission
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="col-11">
-        <div class="text-center" style="color: white;"> 
-          <h3>BHEEMANNA KHANDRE INSTITUTE OF TECHNOLOGY, BHALKI</h3>
-          <h6>(Formerly known as Rural Engineering College, Bhalki)</h6>
-          <h6>
-            ( Approved by AICTE New Delhi & Govt. of Karnataka, Affiliated to
-            VTU Belagavi, Accredited by NAAC of UGC with B++ grade and also by
-            Institution of Engineers (I), Kolkatta)
-          </h6>
-          <h6>Bhalki, Dist. Bidar (Karnataka), 585328</h6></div>
+      <div class="modal-body">
+        <form class=" form-popup" method="post" name="adm form" id="adm form" action="https://script.google.com/macros/s/AKfycbzHkKCEvH5ZsFToARgRrjbX2hmxeJcsLOchdoesQr_5wzFpfucReVbrZmzPBEQcbzs9Cw/exec">
+              <div class="form-outline">
+                <label class="form-label" for="firstName">Full Name</label>
+                <input type="text" id="firstName" name="Fname" placeholder="First Name" class="form-control form-control-lg" />                           
+            </div>           
+              <div class="form-outline">
+                <label class="form-label" for="emailAddress">E-mail</label>
+                <input type="email" id="emailAddress" name="E-mail" placeholder="E-mail" class="form-control form-control-lg" />         
+              </div>                  
+              <div class="form-outline">
+                <label class="form-label" for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="PhoneNo" placeholder="Phone Number" class="form-control form-control-lg" />                      
+              </div> 
+          <div>
+              <label class="form-label select-label">Course Intrested</label>
+              <select name="Course Intrested" class="form-control-lg">
+                <option selected>Select Course</option>
+                <option value="Mechanical">Mechanical Engineering</option>
+                <option value="CSE">Computer Science Engineering</option>
+                <option value="ECE">Electonics & Communication Engineering</option>
+                <option value="Civil"> Civil Engineering</option>
+                <option value="Chemical">Chemical Engineering</option>
+                <option value="MCA"> M.C.A</option>
+              </select>  
+          </div>
+          <div class="mt-4 pt-2">
+            <input class="btn btn-primary " type="submit" value="Submit" />
+          </div>
+          <hr>
+          <div class="mt-4 pt-2 ml-6">
+          <label for="skip" class="btn btn-secondary"><a class="nav-link" href="/pages/example.html">skip</a></label>
+        </div>
+        </form>
       </div>
-      
     </div>
   </div>
-   </section>
-
+</div>
     <script src="https://kit.fontawesome.com/a48ab851a3.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 </body>
-</html>
+</html
