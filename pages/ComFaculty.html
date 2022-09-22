@@ -26,7 +26,111 @@
                 <a class="nav-link" href="/pages/about.html">About us</a>
               </li>
               <li>
-                <a class="nav-link" href="/pages/addmissions.html">Admission</a>
+               <a
+               class="nav-link "
+                 data-bs-toggle="modal"
+                 data-bs-target="#exampleModal"
+               >
+                 Admission
+               </a>
+             
+             <div
+               class="modal fade"
+               id="exampleModal"
+               tabindex="-1"
+               aria-labelledby="exampleModalLabel"
+               aria-hidden="true"
+             >
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel"></h5>
+                     <button
+                       type="button"
+                       class="btn-close"
+                       data-bs-dismiss="modal"
+                       aria-label="Close"
+                     ></button>
+                   </div>
+                   <div class="modal-body">
+                     <form
+                       class="form-popup"
+                       method="post"
+                       name="adm form"
+                       id="adm form"
+                       action="https://script.google.com/macros/s/AKfycbzHkKCEvH5ZsFToARgRrjbX2hmxeJcsLOchdoesQr_5wzFpfucReVbrZmzPBEQcbzs9Cw/exec"
+                     >
+                       <div class="form-outline">
+                         <label class="form-label" for="firstName"
+                           >Full Name</label
+                         >
+                         <input
+                           type="text"
+                           id="firstName"
+                           name="Fname"
+                           placeholder="First Name"
+                           class="form-control form-control-lg"
+                         />
+                       </div>
+                       <div class="form-outline">
+                         <label class="form-label" for="emailAddress"
+                           >E-mail</label
+                         >
+                         <input
+                           type="email"
+                           id="emailAddress"
+                           name="E-mail"
+                           placeholder="E-mail"
+                           class="form-control form-control-lg"
+                         />
+                       </div>
+                       <div class="form-outline">
+                         <label class="form-label" for="phoneNumber"
+                           >Phone Number</label
+                         >
+                         <input
+                           type="tel"
+                           id="phoneNumber"
+                           name="PhoneNo"
+                           placeholder="Phone Number"
+                           class="form-control form-control-lg"
+                         />
+                       </div>
+                       <div>
+                         <label class="form-label select-label"
+                           >Course Intrested</label
+                         >
+                         <select name="Course Intrested" class="form-control-lg">
+                           <option selected>Select Course</option>
+                           <option value="Mechanical">
+                             Mechanical Engineering
+                           </option>
+                           <option value="CSE">
+                             Computer Science Engineering
+                           </option>
+                           <option value="ECE">
+                             Electonics & Communication Engineering
+                           </option>
+                           <option value="Civil">Civil Engineering</option>
+                           <option value="Chemical">Chemical Engineering</option>
+                           <option value="MCA">M.C.A</option>
+                         </select>
+                       </div>
+                       <div class="mt-4 pt-2">
+                         <input
+                           class="btn btn-primary"
+                           type="submit"
+                           value="Submit"
+                         />
+                         <button type="button"  class="btn btn-primary float-end">
+                           <a style="color:white; text-decoration:none;" href="/pages/blink.html"
+                             >skip</a ></button>
+                       </div>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+             </div>
               </li>
               <li>
                <a class="btn btn-white dropdown-toggle dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,7 +171,7 @@
     </section>
     <section id="container">
         <div class="ritz grid-container" dir="ltr">
-            <table class="table-bordered">
+            <table class="table-bordered table-responsive">
                <thead>
                   <tr>
                      <th class="row-header freezebar-horizontal-handle"></th>
