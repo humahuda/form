@@ -1,19 +1,4 @@
-/* .class{
-    background-color: rgb(0, 26, 255);
-    color: white;
-    display: inline-block;
-    text-align: center;
-    
-    
-}
-@media screen and(max-width:600px){
-    .class{
-        width: 100%;
-        float: none;
-        
-        
-    }
-}*/
+
  
 
 body{
@@ -24,17 +9,6 @@ body{
   
 }
 
-
-
-a:hover {
-color:black;
-background-color: #d9edf7;
-}
-  
-/*.text-center{
-  text-align:right;
-}*/
-
 .nav-link {
 color: #fff;
 }
@@ -42,8 +16,8 @@ color: #fff;
 /*.nav-link:hover{
   background-color:white;
 }*/
-.head{
-  margin-left:140px;
+.Head{
+  margin-left:200px;
   gap: 10px; 
 }
 .header{
@@ -228,10 +202,6 @@ float: right;
 
 .marquee{
   size: 50px;
-}
-.header-modal:hover {
-  color: black;
-  background-color: aquamarine;
 }
 
 
