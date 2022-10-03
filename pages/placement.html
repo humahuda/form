@@ -1,235 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>placement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+ <!--    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    /> -->
     <link rel="stylesheet" href="/app.css" />
-</head>
+  </head>
 
-<body>
-    <section id="container2"  style="background-color: #0A5487" class="d-flux justify-content-center">
-        <div class="mb-3">
-          <a class="nav-link" href="/index.html">
-          <img style="float:left ;" src="/img/bkit_logo.png" class="image-fluid" alt="img" />
-          </a>
-          <p style="color:white">BHEEMANNA KHANDRE INSTITUTE OF TECHNOLOGY, BHALKI</p>
-        </div>
-        <div class="head">
-          <nav class=" navbar-expand-sm">
-           
-              <ul class=" navbar-nav head">
-                <li>
-                  <a class="nav-link" href="/pages/about.html">About us</a>
-                </li>
-                <li>
-                  <a
-                  class="nav-link "
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    Admission
-                  </a>
-                
-                <div
-                  class="modal fade"
-                  id="exampleModal"
-                  tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel"></h5>
-                        <button
-                          type="button"
-                          class="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                      </div>
-                      <div class="modal-body">
-                        <form
-                          class="form-popup"
-                          method="post"
-                          name="adm form"
-                          id="adm form"
-                          action="https://script.google.com/macros/s/AKfycbzHkKCEvH5ZsFToARgRrjbX2hmxeJcsLOchdoesQr_5wzFpfucReVbrZmzPBEQcbzs9Cw/exec"
-                        >
-                          <div class="form-outline">
-                            <label class="form-label" for="firstName"
-                              >Full Name</label
+  <body>
+    <section
+      id="container2"
+      style="background-color: #0a5487"
+      class="d-flux justify-content-center"
+    >
+      <div class="mb-3">
+        <a class="nav-link" href="/index.html">
+          <img
+            style="float: left"
+            src="/img/bkit_logo.png"
+            class="image-fluid"
+            alt="img"
+          />
+        </a>
+        <p style="color: white">
+          BHEEMANNA KHANDRE INSTITUTE OF TECHNOLOGY, BHALKI
+        </p>
+      </div>
+      <div class="head">
+        <nav class="navbar-expand-sm">
+          <ul class="navbar-nav head">
+            <li>
+              <a class="nav-link" href="/pages/about.html">About us</a>
+            </li>
+            <li>
+              <a
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Admission
+              </a>
+
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form
+                        class="form-popup"
+                        method="post"
+                        name="adm form"
+                        id="adm form"
+                        action="https://script.google.com/macros/s/AKfycbzHkKCEvH5ZsFToARgRrjbX2hmxeJcsLOchdoesQr_5wzFpfucReVbrZmzPBEQcbzs9Cw/exec"
+                      >
+                        <div class="form-outline">
+                          <label class="form-label" for="firstName"
+                            >Full Name</label
+                          >
+                          <input
+                            type="text"
+                            id="firstName"
+                            name="Fname"
+                            placeholder="First Name"
+                            class="form-control form-control-lg"
+                          />
+                        </div>
+                        <div class="form-outline">
+                          <label class="form-label" for="emailAddress"
+                            >E-mail</label
+                          >
+                          <input
+                            type="email"
+                            id="emailAddress"
+                            name="E-mail"
+                            placeholder="E-mail"
+                            class="form-control form-control-lg"
+                          />
+                        </div>
+                        <div class="form-outline">
+                          <label class="form-label" for="phoneNumber"
+                            >Phone Number</label
+                          >
+                          <input
+                            type="tel"
+                            id="phoneNumber"
+                            name="PhoneNo"
+                            placeholder="Phone Number"
+                            class="form-control form-control-lg"
+                          />
+                        </div>
+                        <div>
+                          <label class="form-label select-label"
+                            >Course Intrested</label
+                          >
+                          <select
+                            name="Course Intrested"
+                            class="form-control-lg"
+                          >
+                            <option selected>Select Course</option>
+                            <option value="Mechanical">
+                              Mechanical Engineering
+                            </option>
+                            <option value="CSE">
+                              Computer Science Engineering
+                            </option>
+                            <option value="ECE">
+                              Electonics & Communication Engineering
+                            </option>
+                            <option value="Civil">Civil Engineering</option>
+                            <option value="Chemical">
+                              Chemical Engineering
+                            </option>
+                            <option value="MCA">M.C.A</option>
+                          </select>
+                        </div>
+                        <div class="mt-4 pt-2">
+                          <input
+                            class="btn btn-primary"
+                            type="submit"
+                            value="Submit"
+                          />
+                          <button
+                            type="button"
+                            class="btn btn-primary float-end"
+                          >
+                            <a
+                              style="color: white; text-decoration: none"
+                              href="/pages/blink.html"
+                              >skip</a
                             >
-                            <input
-                              type="text"
-                              id="firstName"
-                              name="Fname"
-                              placeholder="First Name"
-                              class="form-control form-control-lg"
-                            />
-                          </div>
-                          <div class="form-outline">
-                            <label class="form-label" for="emailAddress"
-                              >E-mail</label
-                            >
-                            <input
-                              type="email"
-                              id="emailAddress"
-                              name="E-mail"
-                              placeholder="E-mail"
-                              class="form-control form-control-lg"
-                            />
-                          </div>
-                          <div class="form-outline">
-                            <label class="form-label" for="phoneNumber"
-                              >Phone Number</label
-                            >
-                            <input
-                              type="tel"
-                              id="phoneNumber"
-                              name="PhoneNo"
-                              placeholder="Phone Number"
-                              class="form-control form-control-lg"
-                            />
-                          </div>
-                          <div>
-                            <label class="form-label select-label"
-                              >Course Intrested</label
-                            >
-                            <select name="Course Intrested" class="form-control-lg">
-                              <option selected>Select Course</option>
-                              <option value="Mechanical">
-                                Mechanical Engineering
-                              </option>
-                              <option value="CSE">
-                                Computer Science Engineering
-                              </option>
-                              <option value="ECE">
-                                Electonics & Communication Engineering
-                              </option>
-                              <option value="Civil">Civil Engineering</option>
-                              <option value="Chemical">Chemical Engineering</option>
-                              <option value="MCA">M.C.A</option>
-                            </select>
-                          </div>
-                          <div class="mt-4 pt-2">
-                            <input
-                              class="btn btn-primary"
-                              type="submit"
-                              value="Submit"
-                            />
-                            <button type="button"  class="btn btn-primary float-end">
-                              <a style="color:white; text-decoration:none;" href="/pages/blink.html"
-                                >skip</a ></button>
-                          </div>
-                        </form>
-                      </div>
+                          </button>
+                        </div>
+                      </form>
                     </div>
                   </div>
                 </div>
-                 </li>
+              </div>
+            </li>
+            <li>
+              <a
+                class="btn btn-white dropdown-toggle dropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span style="color: white">Department</span>
+              </a>
+
+              <ul class="dropdown-menu">
                 <li>
-                  <a class="btn btn-white dropdown-toggle dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <span style="color: white;">Department</span>
-                     </a>
-                   
-                     <ul class="dropdown-menu">
-                       <li><a class="dropdown-item" href="#">Mechanical Engineering</a></li>
-                       <li><a class="dropdown-item" href="#">Computer Science Engineering</a></li>
-                       <li><a class="dropdown-item" href="#">Electonics & Communication</a></li>
-                       <li><a class="dropdown-item" href="#">Chemical Engineering</a></li>
-                       <li><a class="dropdown-item" href="#">Civil Engineering</a></li>
-                       <li><a class="dropdown-item" href="#">M.C.A</a></li>
-                     </ul>
-              </li>
-              <li>
-                  <a class="btn btn-white dropdown-toggle dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <span style="color: white;">Central Facility</span>
-                     </a>
-                   
-                     <ul class="dropdown-menu">
-                       <li><a class="dropdown-item" href="#">LIBRARY</a></li>
-                       <li><a class="dropdown-item" href="#">HOSTEL</a></li>
-                       <li><a class="dropdown-item" href="#">SPORTS</a></li>
-                       <li><a class="dropdown-item" href="#">OTHER</a></li>
-                     </ul>
-              </li>
-                <li>
-                  <a class="nav-link" href="/pages/placement.html">Placement</a>
+                  <a class="dropdown-item" href="#">Mechanical Engineering</a>
                 </li>
                 <li>
-                  <a class="nav-link" href="/pages/location.html">Contact us</a>
+                  <a class="dropdown-item" href="#"
+                    >Computer Science Engineering</a
+                  >
                 </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Electonics & Communication</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Chemical Engineering</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Civil Engineering</a></li>
+                <li><a class="dropdown-item" href="#">M.C.A</a></li>
               </ul>
-          </nav>
-            </div>
-         
-      </section>
-    <section id="container">
-        <h1>Training and Placement Cell</h1>
-        <hr>
+            </li>
+            <li>
+              <a
+                class="btn btn-white dropdown-toggle dropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span style="color: white">Central Facility</span>
+              </a>
 
-        <table class="table table-responsive">
-            <thead>
-                <tr>
-                    <th scope="col"><a href="#">About T&P Cell</a></th>
-                    <th scope="col"><a href="/pages/Campus R.html">Campus Recruiters</a></th>
-                    <th scope="col"><a href="/pages/place_2022.html">Placement 2022</a></th>
-                    <th scope="col"><a href="/pages/contact_place.html">Contact</a></th>
-                </tr>
-            </thead>
-        </table>
-
-        <div><img src="https://www.recbhalki.org/images/tpo.jpg" style="float:right ;"></div>
-        <div class="mb-4">
-            <p>Knowledge alone is no longer enough to get ahead or to get a good job was the firm belief behind
-                inception of T&P Cell
-                back till 1993. Prime objective of functioning of T&P Cell is to assist, advise and train the student
-                community
-                empowering them to corporate requirements.</p>
-
-            <p>Cell aims to help students of BE, M.Tech & MCA for their career options to host range of information on
-                inplant
-                training, employment, personality development, soft skills & campus Placement including individual
-                counseling. Cell regularly conducts career guidance programmes, employability enhancement training,
-                personality development programme
-                along with more important entrepreneurship awareness and development.</p>
-
-            <p>Enabling students to lace with the latest and update them to shape their career, Cell undertakes series
-                of
-                lecture
-                session, group discussion, seminars and workshops to prepare resumes and other interview requirements so
-                as
-                to make up
-                the core competencies of the individual. Cell constantly liaise with various private and public sector
-                organizations
-                with a view to update prospective employees and to make sure for campus recruitments. Time to time
-                several
-                memorandum of
-                understanding (MOU) have been signed to meet industry expectations. T&P Cell is in constant touch with
-                alumni in
-                utilizing their expertise and to have better industry-institute interactions.</p>
-
-            <p>GATE awareness, LEAD and EAP as well as similar other programs as per requirement are organised on
-                regular
-                basis.</p>
-
-            <p> T&P Cell takes credit to establish & monitor TCS iON center for conducting online exams like RRB, RBI,
-                SBI,
-                LIC, UoM,
-                etc as the only center of NK region, catering needs of neighboring states of Telangana& Maharashtra.</p>
-        </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">LIBRARY</a></li>
+                <li><a class="dropdown-item" href="#">HOSTEL</a></li>
+                <li><a class="dropdown-item" href="#">SPORTS</a></li>
+                <li><a class="dropdown-item" href="#">OTHER</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link" href="/pages/placement.html">Placement</a>
+            </li>
+            <li>
+              <a class="nav-link" href="/pages/location.html">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </section>
-    <script src="https://kit.fontawesome.com/a48ab851a3.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
 
+    <div class="container">
+      <h2>Dynamic Tabs</h2>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+        <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+        <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+        <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h3>HOME</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h3>Menu 1</h3>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Menu 2</h3>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam.
+          </p>
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <h3>Menu 3</h3>
+          <p>
+            Eaque ipsa quae ab illo inventore veritatis et quasi architecto
+            beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
 </html>

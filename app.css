@@ -21,7 +21,7 @@ p{
   background-color:white;
 }*/
 .Head {
-  margin-left: 400px;
+  margin-left: 300px;
   gap: 10px;
 }
 .header {
@@ -36,8 +36,8 @@ p{
   width: 11rem;
 }
 .image-fluid {
-  height: 6%;
-  width: 5%;
+  height: 4rem;
+  width: 4rem;
 }
 
 .moving-links {
@@ -206,4 +206,11 @@ p{
 marquee a{
   font-size: medium;
   font-weight: 700;
+}
+.form-gap {
+  padding-top: 70px;
+}
+
+.link-horizon li a{
+color: #0a5487;
 }

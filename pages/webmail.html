@@ -29,11 +29,51 @@
         </div>
         
           <div class="col d-flex mb-5">
-        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+            <button
+          type="submit"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+         Sign In
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body text-center">
+                <img
+                  src="/img/tick.jpg"
+                  style="width: 8rem"
+                  class="rounded mx-auto d-block"
+                />
+                <h3>Thank You!</h3>
+                <p>Your details has been successfully submitted.Thanks!</p>
+              </div>
+              <div class="text-center mb-4">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Ok
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
     
         </div>
         <div class="col " >
-            <a href="#!">Reset password</a>
+            <a href="/pages/forgot password.html">Reset password</a>
           </div>
         
       </form>
